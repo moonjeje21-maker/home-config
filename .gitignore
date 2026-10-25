@@ -4,3 +4,8 @@
 # 아래에 적은 파일만 추적한다
 !.gitignore
 !CLAUDE.md
+# .claude 폴더는 Claude Code 설정 폴더다. 그 안에서도 전역 규칙 파일 하나만 올린다
+# (!.claude/ 로 폴더를 열고, .claude/* 로 안의 나머지를 다시 막고, 그 파일만 예외로 둔다)
+!.claude/
+.claude/*
+!.claude/CLAUDE.md
