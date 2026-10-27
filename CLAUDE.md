@@ -9,6 +9,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - 홈 폴더는 공개 저장소 `home-config`다. `.gitignore`가 모든 파일을 무시하고 `CLAUDE.md`·`.gitignore`만 예외로 둔다. 파일을 더 추적하려면 `.gitignore`에 `!파일명`을 추가하고, `*` 규칙은 지우지 않는다.
 - 프로젝트 작업의 git 명령은 그 프로젝트 폴더 안에서 쓴다.
 - `workspace1/friends-fortune/`, `workspace1/claude-nextjs/`, `workspace1/project-notion-cms/`는 별도 저장소라 그 폴더 안에서 따로 커밋·푸시한다. 나머지는 `workspace1` 저장소다.
+- 홈 바로 아래 `my-app/`도 별도 로컬 저장소다(GitHub 원격 없음). git 명령은 그 폴더 안에서 쓴다.
 
 ## 작업 방식
 
